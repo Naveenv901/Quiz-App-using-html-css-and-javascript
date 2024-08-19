@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz Questions</h1>
+
+        <!-- Question 1 -->
+        <div class="question">
+            <h2>1. In web design, CSS stands for?</h2>
+            <div onclick="checkAnswer(this, 'd4')" id="d1" class="option">
+                <button>A</button>
+                <h3>Counter Strike Sources</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd4')" id="d2" class="option">
+                <button>B</button>
+                <h3>Corrective Style Sheet</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd4')" id="d3" class="option">
+                <button>C</button>
+                <h3>Computer Style Sheet</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd4')" id="d4" class="option">
+                <button>D</button>
+                <h3>Cascading Style Sheet</h3>
+            </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="question">
+            <h2>2. Which property is used to change the font of an element?</h2>
+            <div onclick="checkAnswer(this, 'd5')" id="d5" class="option">
+                <button>A</button>
+                <h3>font-style</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd5')" id="d6" class="option">
+                <button>B</button>
+                <h3>text-font</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd5')" id="d7" class="option">
+                <button>C</button>
+                <h3>font-family</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd5')" id="d8" class="option">
+                <button>D</button>
+                <h3>font-weight</h3>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question">
+            <h2>3. Which HTML tag is used to define an internal style sheet?</h2>
+            <div onclick="checkAnswer(this, 'd9')" id="d9" class="option">
+                <button>A</button>
+                <h3>&lt;style&gt;</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd9')" id="d10" class="option">
+                <button>B</button>
+                <h3>&lt;script&gt;</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd9')" id="d11" class="option">
+                <button>C</button>
+                <h3>&lt;css&gt;</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd9')" id="d12" class="option">
+                <button>D</button>
+                <h3>&lt;link&gt;</h3>
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="question">
+            <h2>4. Which property is used to change the background color of an element?</h2>
+            <div onclick="checkAnswer(this, 'd13')" id="d13" class="option">
+                <button>A</button>
+                <h3>background-color</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd13')" id="d14" class="option">
+                <button>B</button>
+                <h3>color</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd13')" id="d15" class="option">
+                <button>C</button>
+                <h3>background</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd13')" id="d16" class="option">
+                <button>D</button>
+                <h3>bg-color</h3>
+            </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question">
+            <h2>5. How do you select an element with the class "example" in CSS?</h2>
+            <div onclick="checkAnswer(this, 'd18')" id="d17" class="option">
+                <button>A</button>
+                <h3>#example</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd18')" id="d18" class="option">
+                <button>B</button>
+                <h3>.example</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd18')" id="d19" class="option">
+                <button>C</button>
+                <h3>example</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd18')" id="d20" class="option">
+                <button>D</button>
+                <h3>*example</h3>
+            </div>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="question">
+            <h2>6. What does the z-index property control?</h2>
+            <div onclick="checkAnswer(this, 'd22')" id="d21" class="option">
+                <button>A</button>
+                <h3>Element's stacking order</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd22')" id="d22" class="option">
+                <button>B</button>
+                <h3>Element's opacity</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd22')" id="d23" class="option">
+                <button>C</button>
+                <h3>Element's border</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd22')" id="d24" class="option">
+                <button>D</button>
+                <h3>Element's margin</h3>
+            </div>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="question">
+            <h2>7. How do you make text bold in CSS?</h2>
+            <div onclick="checkAnswer(this, 'd25')" id="d25" class="option">
+                <button>A</button>
+                <h3>font-weight: bold;</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd25')" id="d26" class="option">
+                <button>B</button>
+                <h3>text-transform: bold;</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd25')" id="d27" class="option">
+                <button>C</button>
+                <h3>font-style: bold;</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd25')" id="d28" class="option">
+                <button>D</button>
+                <h3>font-size: bold;</h3>
+            </div>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="question">
+            <h2>8. What does the float property do in CSS?</h2>
+            <div onclick="checkAnswer(this, 'd29')" id="d29" class="option">
+                <button>A</button>
+                <h3>Aligns elements horizontally</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd29')" id="d30" class="option">
+                <button>B</button>
+                <h3>Aligns elements vertically</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd29')" id="d31" class="option">
+                <button>C</button>
+                <h3>Sets the transparency of elements</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd29')" id="d32" class="option">
+                <button>D</button>
+                <h3>Sets the background color</h3>
+            </div>
+        </div>
+
+        <!-- Question 9 -->
+        <div class="question">
+            <h2>9. Which property controls the text size in CSS?</h2>
+            <div onclick="checkAnswer(this, 'd34')" id="d33" class="option">
+                <button>A</button>
+                <h3>text-size</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd34')" id="d34" class="option">
+                <button>B</button>
+                <h3>font-size</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd34')" id="d35" class="option">
+                <button>C</button>
+                <h3>text-font</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd34')" id="d36" class="option">
+                <button>D</button>
+                <h3>font-style</h3>
+            </div>
+        </div>
+
+        <!-- Question 10 -->
+        <div class="question">
+            <h2>10. How can you add a comment in CSS?</h2>
+            <div onclick="checkAnswer(this, 'd38')" id="d37" class="option">
+                <button>A</button>
+                <h3>.. This is a comment</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd38')" id="d38" class="option">
+                <button>B</button>
+                <h3>/* This is a comment */</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd38')" id="d39" class="option">
+                <button>C</button>
+                <h3># This is a comment</h3>
+            </div>
+            <div onclick="checkAnswer(this, 'd38')" id="d40" class="option">
+                <button>D</button>
+                <h3>-- This is a comment --</h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
